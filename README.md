@@ -17,5 +17,7 @@ dictionary with the following keys:
 1. 'content': the conten of the readme file
 1. 'links': [ an array of extracted URLs ]
 
-Each line is separately json encoded
+Each line is separately json encoded.
+Output should be in a single file output/nettid.json.gz
 
+Happy scraping! 
