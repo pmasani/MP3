@@ -20,9 +20,10 @@ dictionary with the following keys:
 1. 'dois': [ an array of extracted DOIs ]
 1. 'bibs': [ an array of extracted bib emtries ] - bonus points
 
-Each line is separately json encoded. Output should be in a single file output/nettid.json.gz
-your code will be in netid.py or netid.ipynb (if you prefer notebook).
+Each line is separately json encoded. Output should be in a single file output/netid.json.gz
+and your source code will be in netid.py (or netid.ipynb if you
+prefer to use collab notebooks).
 
-See example in 
+See example in example.py.
 
 Happy scraping! 
