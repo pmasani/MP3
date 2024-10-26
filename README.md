@@ -5,7 +5,8 @@ HuggingFace Hub in your netid_model and netid_data
 files.
 
 For each please scrape and store the content of the readme files
-For each retrieved README file extract all URLs and DOI's in it.
+For each retrieved README file extract all URLs and DOI's in it. For
+bonus points extract bib entries as well. 
 Store the results in a (compressed) json file containing a
 dictionary with the following keys:
 
@@ -16,8 +17,12 @@ dictionary with the following keys:
 	or 'https://huggingface.co/iamacaru/climate/raw/main/README.md'
 1. 'content': "the content of the readme file" - no newlines
 1. 'links': [ an array of extracted URLs ]
-1. 'dois': [ an array of extracted URLs ]
+1. 'dois': [ an array of extracted DOIs ]
+1. 'bibs': [ an array of extracted bib emtries ] - bonus points
 
 Each line is separately json encoded. Output should be in a single file output/nettid.json.gz
+your code will be in netid.py or netid.ipynb (if you prefer notebook).
+
+See example in 
 
 Happy scraping! 
