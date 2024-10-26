@@ -18,7 +18,7 @@ dictionary with the following keys:
 1. 'content': "the content of the readme file" - no newlines
 1. 'links': [ an array of extracted URLs ]
 1. 'dois': [ an array of extracted DOIs ]
-1. 'bibs': [ an array of extracted bib emtries ] - bonus points
+1. 'bibs': [ an array of extracted bib entries ] - bonus points
 
 Each line is separately json encoded. Output should be in a single file output/netid.json.gz
 and your source code will be in netid.py (or netid.ipynb if you
