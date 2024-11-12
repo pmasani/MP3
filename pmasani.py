@@ -6,7 +6,6 @@ import gzip
 from tqdm import tqdm
 import os
 
-
 utid = 'pmasani'
 
 # Base URLs for models, datasets, and source repositories
