@@ -104,9 +104,8 @@ def run(tp):
             # Write the result to the compressed JSON file
             fo.write(json.dumps(res, ensure_ascii=False) + "\n")
 
-# Run the script for all of them
+# Run the script for model, data and source
 run('model')
 run('data')
 run('source')
-
 print("Data scraping and extraction done!")
