@@ -6,6 +6,7 @@ import gzip
 from tqdm import tqdm
 import os
 
+
 utid = 'pmasani'
 
 # Base URLs for models, datasets, and source repositories
@@ -45,8 +46,9 @@ def fetch_content(url):
     except requests.exceptions.RequestException as e:
         print(f"Failed to fetch {url}: {e}")
         return None
+        
+# output exist or none
 
-# output exist or not
 os.makedirs("output", exist_ok=True)
 
 # To run the scraping process with tqdm for progress
